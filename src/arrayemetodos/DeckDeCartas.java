@@ -32,17 +32,17 @@ public class DeckDeCartas {
             deck[i] = new Carta(faces[i % 13], naipes[i / 13]);
 
     }
-        //distribui as cartas
+    //distribui as cartas
 
-        public Carta distribuirCarta () {
+    public Carta distribuirCarta () {
 
-            if (indiceCarta < deck.length)
-                return deck[indiceCarta++];
-            else
-                return null;
-        }
+        if (indiceCarta < deck.length)
+            return deck[indiceCarta++];
+        else
+            return null;
+    }
 
-        public void embaralharCartas(){
+    public void embaralharCartas(){
 
         indiceCarta = 0;
 
@@ -57,6 +57,6 @@ public class DeckDeCartas {
 
 
 
-        }
+    }
 }
 
