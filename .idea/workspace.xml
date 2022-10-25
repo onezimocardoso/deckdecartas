@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f0252a-ebf6-47f8-8bfa-cb0a1f069a53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrayemetodos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayemetodos/Carta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayemetodos/DeckDeCartas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayemetodos/Teste.java" afterDir="false" />
+    <list default="true" id="50f0252a-ebf6-47f8-8bfa-cb0a1f069a53" name="Changes" comment="oi">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +28,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/onezi/Documents/4 Archieves/Archieves 19102022/workspace/arrayemetodos/src"
   }
 }]]></component>
   <component name="RunManager">
@@ -68,6 +61,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666097056478</updated>
     </task>
+    <task id="LOCAL-00001" summary="oi">
+      <created>1666102800682</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666102800682</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,5 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="oi" />
+    <option name="LAST_COMMIT_MESSAGE" value="oi" />
   </component>
 </project>

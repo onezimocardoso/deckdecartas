@@ -4,16 +4,19 @@ import java.security.SecureRandom;
 
 public class DeckDeCartas {
 
-    private Carta[] deck;
-    private int indiceCarta;
-    private static final int NUMERO_DE_CARTAS = 52;
+
+    protected int indiceCarta;
+    protected static final int NUMERO_DE_CARTAS = 52;
+
+    protected Carta[] deck = new Carta[NUMERO_DE_CARTAS];
 
     //gerador de números aleatórios
-    private static final SecureRandom numerosAleatorios = new SecureRandom();
+    protected static final SecureRandom numerosAleatorios = new SecureRandom();
 
     //construtor
 
     public DeckDeCartas() {
+        //String[] faces = new String[13];
         String[] faces = {"As", "Dois", "Tres",
                 "Quatro", "Cinco", "Seis", "Sete",
                 "Oito", "Nove", "Dez", "Valete",
@@ -37,6 +40,23 @@ public class DeckDeCartas {
                 return deck[indiceCarta++];
             else
                 return null;
+        }
+
+        public void embaralharCartas(){
+
+        indiceCarta = 0;
+
+        for(int i=0; i < deck.length ; i++){
+
+            //cria um número aleatório entre 0 e 51
+            int proximoIndice = numerosAleatorios.nextInt(NUMERO_DE_CARTAS);
+            Carta temp = deck[i];
+            deck[i]=deck[proximoIndice];
+            deck[proximoIndice]=temp;
+        }
+
+
+
         }
 }
 

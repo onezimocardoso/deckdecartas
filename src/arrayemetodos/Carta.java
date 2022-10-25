@@ -1,6 +1,7 @@
 package arrayemetodos;
 
 public class Carta {
+    //Variáveis de instâncias
     private final String face;
     private final String naipe;
 
